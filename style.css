@@ -19,8 +19,11 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-image: url('https://wallpapers.com/images/high/snake-game-1680-x-1050-background-6syqer1fr6oahe0b.webp');
-  background-size: 5em;
   border: 2px solid black;
+  background-position: bottom right;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
 }
 
 .wrapper {
@@ -34,6 +37,7 @@ body {
   background: rgb(111, 150, 34);
   box-shadow: 0 20px 40px rgb(111, 150, 34);
   border: 2px solid black;
+  margin-right: 170px;
 }
 
 .game-details {
